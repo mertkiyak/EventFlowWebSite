@@ -498,6 +498,9 @@ h1 {
     background: var(--dark);
     color: white;
     padding: 60px 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer-content {
@@ -518,8 +521,9 @@ h1 {
 
 .footer-links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    
     gap: 40px;
+    margin-left: auto;
 }
 
 .footer-column h4 {
