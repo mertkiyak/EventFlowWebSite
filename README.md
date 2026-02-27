@@ -1,102 +1,16 @@
-# Eventflow - Etkinlik Uygulaması Website
+# React + Vite
 
-Modern ve responsive bir etkinlik uygulaması web sitesi. Eventflow, kullanıcıların çevresindeki etkinlikleri keşfetmelerini, katılmalarını, yeni insanlarla tanışmalarını ve kendi etkinliklerini oluşturmalarını sağlayan bir mobil uygulamadır.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🎨 Özellikler
+Currently, two official plugins are available:
 
-- Modern ve şık tasarım
-- Tamamen responsive (mobil, tablet, desktop)
-- Smooth scroll ve animasyonlar
-- Interaktif UI elementleri
-- Gradient renkler ve modern ikonlar
-- Optimized performans
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 📁 Dosya Yapısı
+## React Compiler
 
-```
-eventflow-website/
-├── index.html          # Ana HTML dosyası
-├── style.css           # CSS stil dosyası
-├── script.js           # JavaScript interaktif özellikler
-└── README.md          # Bu dosya
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🚀 Kullanım
+## Expanding the ESLint configuration
 
-1. Dosyaları bir klasöre indirin
-2. `index.html` dosyasını bir web tarayıcısında açın
-3. Web sitesi hazır!
-
-### Yerel Sunucu ile Çalıştırma (Önerilen)
-
-Python 3 ile:
-```bash
-cd eventflow-website
-python -m http.server 8000
-```
-
-Sonra tarayıcınızda `http://localhost:8000` adresine gidin.
-
-## 🎯 Bölümler
-
-- **Hero Section**: Uygulamanın ana tanıtımı ve istatistikler
-- **Özellikler**: 6 ana özelliğin detaylı açıklamaları
-- **Nasıl Çalışır**: 3 adımda kullanım rehberi
-- **İndir**: App Store ve Google Play indirme linkleri
-- **Footer**: Sosyal medya linkleri ve site haritası
-
-## 🎨 Renk Paleti
-
-- Primary: #6366F1 (Indigo)
-- Secondary: #EC4899 (Pink)
-- Dark: #0F172A
-- Background: #F8FAFC
-
-## 📱 Responsive Breakpoints
-
-- Desktop: 1200px+
-- Tablet: 968px - 1199px
-- Mobile: 640px - 967px
-- Small Mobile: <640px
-
-## 🔧 Özelleştirme
-
-### Renkleri Değiştirme
-`style.css` dosyasındaki `:root` değişkenlerini düzenleyin:
-
-```css
-:root {
-    --primary: #6366F1;
-    --secondary: #EC4899;
-    /* ... */
-}
-```
-
-### İçerik Güncelleme
-`index.html` dosyasındaki metinleri doğrudan düzenleyebilirsiniz.
-
-### Yeni Özellik Ekleme
-`.features-grid` içine yeni `.feature-card` div'leri ekleyin.
-
-## 🌟 Gelecek Geliştirmeler
-
-- [ ] Mobil menü implementasyonu
-- [ ] Karanlık mod
-- [ ] Çoklu dil desteği
-- [ ] Blog bölümü
-- [ ] Gerçek API entegrasyonu
-- [ ] Video tanıtım bölümü
-- [ ] Kullanıcı yorumları bölümü
-- [ ] SSS (Sıkça Sorulan Sorular) bölümü
-
-## 📄 Lisans
-
-Bu proje kişisel kullanım için tasarlanmıştır.
-
-## 👨‍💻 Geliştirici
-
-Eventflow Web Sitesi - 2025
-
----
-
-**Not**: Bu bir statik web sitesidir. Gerçek uygulama indirme linkleri ve API entegrasyonları için backend geliştirme gereklidir.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

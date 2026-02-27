@@ -45,6 +45,7 @@ body {
     border-bottom: 1px solid var(--border);
     z-index: 1000;
     padding: 16px 0;
+    transition: box-shadow 0.3s ease;
 }
 
 .nav-content {
@@ -669,5 +670,12 @@ h1 {
     .phone-frame {
         width: 260px;
         height: 520px;
+    }
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(2);
+        opacity: 0;
     }
 }
