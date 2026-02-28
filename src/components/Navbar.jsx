@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import RippleButton from './RippleButton';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -17,6 +20,13 @@ const Navbar = () => {
 
     const handleNavClick = (e, targetId) => {
         e.preventDefault();
+
+        if (location.pathname !== '/') {
+            navigate('/' + targetId);
+            setMenuOpen(false);
+            return;
+        }
+
         const target = document.querySelector(targetId);
         if (target) {
             target.scrollIntoView({
@@ -27,18 +37,29 @@ const Navbar = () => {
         }
     };
 
+    // Scroll automatically if navigated from another page with hash
+    useEffect(() => {
+        if (location.pathname === '/' && location.hash) {
+            setTimeout(() => {
+                const target = document.querySelector(location.hash);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            }, 100);
+        }
+    }, [location]);
+
     return (
         <nav className="navbar" style={{ boxShadow: scrolled ? '0 4px 20px rgba(0, 0, 0, 0.1)' : 'none' }}>
             <div className="container">
                 <div className="nav-content">
-                    <div className="logo">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <circle cx="16" cy="16" r="14" fill="#6366F1" stroke="#818CF8" strokeWidth="2" />
-                            <path d="M16 8L20 14H12L16 8Z" fill="white" />
-                            <path d="M12 16H20V22C20 23.1 19.1 24 18 24H14C12.9 24 12 23.1 12 22V16Z" fill="white" />
-                        </svg>
+                    <Link to="/" className="logo" style={{ textDecoration: 'none', color: 'var(--dark)' }}>
+                        <img src="/logo.png" alt="EventFlow Logo" width="32" height="32" />
                         <span>Eventflow</span>
-                    </div>
+                    </Link>
                     <ul className="nav-links" style={{ display: menuOpen ? 'flex' : undefined, flexDirection: menuOpen ? 'column' : 'row', position: menuOpen ? 'absolute' : 'static', top: menuOpen ? '100%' : 'auto', left: menuOpen ? 0 : 'auto', right: menuOpen ? 0 : 'auto', background: menuOpen ? 'white' : 'transparent', padding: menuOpen ? '20px' : 0, boxShadow: menuOpen ? '0 10px 20px rgba(0,0,0,0.1)' : 'none' }}>
                         <li><a href="#features" onClick={(e) => handleNavClick(e, '#features')}>Özellikler</a></li>
                         <li><a href="#how-it-works" onClick={(e) => handleNavClick(e, '#how-it-works')}>Nasıl Çalışır</a></li>

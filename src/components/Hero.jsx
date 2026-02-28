@@ -64,7 +64,7 @@ const Hero = () => {
                 <div className="hero-content">
                     <div className="hero-text">
                         <span className="badge">🎉 Yeni Etkinlikler Her Gün</span>
-                        <h1>Çevrenizdeki Etkinlikleri <span className="gradient-text">Keşfedin</span></h1>
+                        <h1>Çevrenizdeki Etkinlikleri Keşfedin</h1>
                         <p className="hero-description">
                             Eventflow ile yakınınızdaki etkinlikleri keşfedin, ilgi alanlarınıza uygun aktivitelere katılın,
                             yeni insanlarla tanışın ve kendi etkinliklerinizi oluşturun.

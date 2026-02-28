@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -6,64 +7,27 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <div className="logo">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                                <circle cx="16" cy="16" r="14" fill="#6366F1" stroke="#818CF8" strokeWidth="2" />
-                                <path d="M16 8L20 14H12L16 8Z" fill="white" />
-                                <path d="M12 16H20V22C20 23.1 19.1 24 18 24H14C12.9 24 12 23.1 12 22V16Z" fill="white" />
-                            </svg>
+                        <Link to="/" className="logo" style={{ textDecoration: 'none' }}>
+                            <img src="/logo.png" alt="EventFlow Logo" width="32" height="32" />
                             <span>Eventflow</span>
-                        </div>
+                        </Link>
                         <p>Etkinlikleri keşfet, katıl, tanış.</p>
                     </div>
                     <div className="footer-links">
                         <div className="footer-column">
-                            <h4>Ürün</h4>
-                            <ul>
-                                <li><a href="#">Özellikler</a></li>
-                                <li><a href="#">Fiyatlandırma</a></li>
-                                <li><a href="#">İndir</a></li>
-                            </ul>
-                        </div>
-                        <div className="footer-column">
-                            <h4>Şirket</h4>
-                            <ul>
-                                <li><a href="#">Hakkımızda</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Kariyer</a></li>
-                            </ul>
-                        </div>
-                        <div className="footer-column">
                             <h4>Destek</h4>
                             <ul>
-                                <li><a href="#">Yardım Merkezi</a></li>
-                                <li><a href="#">İletişim</a></li>
-                                <li><a href="#">Gizlilik</a></li>
+                                <li><Link to="/yardim">Yardım Merkezi</Link></li>
+                                <li><Link to="/iletisim">İletişim</Link></li>
+                                <li><Link to="/gizlilik">Gizlilik</Link></li>
+                                <li><Link to="/hizmet-ve-kosullar">Hizmet ve Koşullar</Link></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; 2025 Eventflow. Tüm hakları saklıdır.</p>
-                    <div className="social-links">
-                        <a href="#" aria-label="Twitter">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
-                            </svg>
-                        </a>
-                        <a href="#" aria-label="Instagram">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-                            </svg>
-                        </a>
-                        <a href="#" aria-label="Facebook">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-                            </svg>
-                        </a>
-                    </div>
+                    <p>&copy; 2026 Eventflow. Tüm hakları saklıdır.</p>
+
                 </div>
             </div>
         </footer>

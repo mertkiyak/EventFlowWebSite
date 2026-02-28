@@ -42,7 +42,7 @@ const Features = () => {
             <div className="container">
                 <div className="section-header">
                     <span className="badge">Özellikler</span>
-                    <h2>Her Şey <span className="gradient-text">Bir Arada</span></h2>
+                    <h2>Her Şey Bir Arada</h2>
                     <p>Eventflow ile etkinlik dünyasının tüm imkanlarını parmaklarınızın ucuna getirin</p>
                 </div>
                 <div className="features-grid">
