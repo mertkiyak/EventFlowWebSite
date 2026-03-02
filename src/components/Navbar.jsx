@@ -65,7 +65,11 @@ const Navbar = () => {
                         <li><a href="#how-it-works" onClick={(e) => handleNavClick(e, '#how-it-works')}>Nasıl Çalışır</a></li>
                         <li><a href="#download" onClick={(e) => handleNavClick(e, '#download')}>İndir</a></li>
                     </ul>
-                    <RippleButton className="btn-primary" style={{ display: window.innerWidth <= 968 ? 'none' : 'block' }}>
+                    <RippleButton
+                        className="btn-primary"
+                        style={{ display: window.innerWidth <= 968 ? 'none' : 'block' }}
+                        onClick={(e) => handleNavClick(e, '#download')}
+                    >
                         Hemen Başla
                     </RippleButton>
                     <button

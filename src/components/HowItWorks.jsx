@@ -41,7 +41,7 @@ const HowItWorks = () => {
             <div className="container">
                 <div className="section-header">
                     <span className="badge">Nasıl Çalışır</span>
-                    <h2>Sadece <span className="gradient-text">3 Adım</span></h2>
+                    <h2>Sadece 3 Adım</h2>
                     <p>Eventflow'u kullanmaya başlamak çok kolay</p>
                 </div>
                 <div className="steps">

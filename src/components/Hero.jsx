@@ -70,18 +70,14 @@ const Hero = () => {
                             yeni insanlarla tanışın ve kendi etkinliklerinizi oluşturun.
                         </p>
                         <div className="hero-buttons">
-                            <RippleButton className="btn-large btn-primary">
+                            <RippleButton
+                                className="btn-large btn-primary"
+                                onClick={() => document.getElementById('download')?.scrollIntoView({ behavior: 'smooth' })}
+                            >
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M10 2L3 7V17H8V12H12V17H17V7L10 2Z" fill="currentColor" />
                                 </svg>
                                 Uygulamayı İndir
-                            </RippleButton>
-                            <RippleButton className="btn-large btn-secondary">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="2" />
-                                    <path d="M8 7L13 10L8 13V7Z" fill="currentColor" />
-                                </svg>
-                                Nasıl Çalışır?
                             </RippleButton>
                         </div>
                         <div className="stats">

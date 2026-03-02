@@ -42,28 +42,28 @@ const HelpCenter = () => {
                 </div>  <div style={{ background: '#fff', padding: '24px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
                     <h3 style={{ marginBottom: '12px', fontSize: '20px', color: '#1C1C1E' }}>Bana Kimlerin Mesaj Gönderebileceğini Nasıl Ayarlarım?</h3>
                     <p style={{ color: '#6B7280', lineHeight: '1.6' }}>
-                    'Ayarlar' > 'Gizlilik' menüsünden 'Mesaj İzni' seçeneğini açıp kapatarak diğer kullanıcıların size rastgele mesaj gönderip gönderemeyeceğini belirleyebilirsiniz.</p>
+                        'Ayarlar' {'>'} 'Gizlilik' menüsünden 'Mesaj İzni' seçeneğini açıp kapatarak diğer kullanıcıların size rastgele mesaj gönderip gönderemeyeceğini belirleyebilirsiniz.</p>
 
                 </div>  <div style={{ background: '#fff', padding: '24px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
                     <h3 style={{ marginBottom: '12px', fontSize: '20px', color: '#1C1C1E' }}>Şifremi Nasıl Değiştirebilirim?</h3>
                     <p style={{ color: '#6B7280', lineHeight: '1.6' }}>
-                        Ayarlar' > 'Güvenlik' sekmesinden güvenli bir şekilde hesap şifrenizin değişimini gerçekleştirebilirsiniz.
+                        Ayarlar' {'>'} 'Güvenlik' sekmesinden güvenli bir şekilde hesap şifrenizin değişimini gerçekleştirebilirsiniz.
                     </p>
 
                 </div>  <div style={{ background: '#fff', padding: '24px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
                     <h3 style={{ marginBottom: '12px', fontSize: '20px', color: '#1C1C1E' }}>Karanlık Mod (Dark Mode) Destekleniyor mu?</h3>
                     <p style={{ color: '#6B7280', lineHeight: '1.6' }}>
-                      Evet, 'Ayarlar' > 'Görünüm' altından Karanlık Mod anahtarını kullanarak temanızı açık veya koyu renk ayarlarına dönüştürebilirsiniz.  </p>
+                        Evet, 'Ayarlar' {'>'} 'Görünüm' altından Karanlık Mod anahtarını kullanarak temanızı açık veya koyu renk ayarlarına dönüştürebilirsiniz.  </p>
 
                 </div>  <div style={{ background: '#fff', padding: '24px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
                     <h3 style={{ marginBottom: '12px', fontSize: '20px', color: '#1C1C1E' }}>Bildirimleri Kapatabilir miyim?</h3>
                     <p style={{ color: '#6B7280', lineHeight: '1.6' }}>
-                       Evet, 'Ayarlar' > 'Bildirimler' menüsünden anlık push bildirimlerini ve e-posta bildirimi alımını kendi kişisel tercihlerinize göre açıp kapatabilirsiniz. </p>
+                        Evet, 'Ayarlar' {'>'} 'Bildirimler' menüsünden anlık push bildirimlerini ve e-posta bildirimi alımını kendi kişisel tercihlerinize göre açıp kapatabilirsiniz. </p>
 
                 </div>  <div style={{ background: '#fff', padding: '24px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
                     <h3 style={{ marginBottom: '12px', fontSize: '20px', color: '#1C1C1E' }}>Geri Bildirim veya Şikayetlerimi Nasıl İletebilirim?</h3>
                     <p style={{ color: '#6B7280', lineHeight: '1.6' }}>
-                        Uygulama deneyiminizle ilgili öneri, hata veya şikayetleri 'Ayarlar' > 'Geri Bildirim' menüsünden bize kolayca bir mesaj olarak ulaştırabilirsiniz. </p>
+                        Uygulama deneyiminizle ilgili öneri, hata veya şikayetleri 'Ayarlar' {'>'} 'Geri Bildirim' menüsünden bize kolayca bir mesaj olarak ulaştırabilirsiniz. </p>
 
                 </div>  <div style={{ background: '#fff', padding: '24px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
                     <h3 style={{ marginBottom: '12px', fontSize: '20px', color: '#1C1C1E' }}>Hesabımı Tamamen Silebilir miyim?</h3>
