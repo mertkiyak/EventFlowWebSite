@@ -66,8 +66,7 @@ const Navbar = () => {
                         <li><a href="#download" onClick={(e) => handleNavClick(e, '#download')}>İndir</a></li>
                     </ul>
                     <RippleButton
-                        className="btn-primary"
-                        style={{ display: window.innerWidth <= 968 ? 'none' : 'block' }}
+                        className="btn-primary desktop-btn"
                         onClick={(e) => handleNavClick(e, '#download')}
                     >
                         Hemen Başla
@@ -88,6 +87,7 @@ const Navbar = () => {
                         {`
                         @media (max-width: 968px) {
                             .mobile-menu-button { display: block !important; }
+                            .desktop-btn { display: none !important; }
                         }
                         `}
                     </style>

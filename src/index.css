@@ -1469,6 +1469,8 @@ h1 {
 
     .stats {
         justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
     }
 
     .phone-mockup {
@@ -1483,6 +1485,10 @@ h1 {
         grid-template-columns: 1fr 1fr;
     }
 
+    .fc-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .features-grid {
         grid-template-columns: 1fr;
     }
@@ -1490,6 +1496,7 @@ h1 {
 
     .steps {
         flex-direction: column;
+        gap: 32px;
     }
 
     .steps::before {
@@ -1539,6 +1546,15 @@ h1 {
 
     .section-header h2 {
         font-size: 36px;
+    }
+
+    .fc-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 24px;
     }
 
     .download-content h2 {
