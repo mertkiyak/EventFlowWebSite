@@ -19,8 +19,7 @@ const PrivacyPolicy = () => {
                     <h2 style={{ fontSize: '22px', marginBottom: '16px' }}>1. Veri Sorumlusunun Kimliği</h2>
                     <p style={{ color: '#6B7280' }}>
                         KVKK ve GDPR mevzuatları kapsamında, kişisel verileriniz veri sorumlusu sıfatıyla tarafından işlenmektedir.
-                        İletişim Adresi: [Şirketin Fiziksel Merkez Adresi]
-                        Veri Koruma Yetkilisi E-posta: [E-posta Adresi] </p>
+                        İletişim Adresi: [info@eventflowapp.net] </p>
                 </section>
 
                 <section>
