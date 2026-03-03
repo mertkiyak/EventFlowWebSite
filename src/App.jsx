@@ -25,13 +25,15 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/yardim" element={<HelpCenter />} />
-        <Route path="/iletisim" element={<Contact />} />
-        <Route path="/gizlilik" element={<PrivacyPolicy />} />
-        <Route path="/hizmet-ve-kosullar" element={<TermsOfService />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/help" element={<HelpCenter />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
+        </Routes>
+      </main>
       <Footer />
     </BrowserRouter>
   );

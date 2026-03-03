@@ -15,12 +15,12 @@ const Footer = () => {
                     </div>
                     <div className="footer-links">
                         <div className="footer-column">
-                            <h4>Destek</h4>
+                            <h4>Support</h4>
                             <ul>
-                                <li><Link to="/yardim">Yardım Merkezi</Link></li>
-                                <li><Link to="/iletisim">İletişim</Link></li>
-                                <li><Link to="/gizlilik">Gizlilik</Link></li>
-                                <li><Link to="/hizmet-ve-kosullar">Hizmet ve Koşullar</Link></li>
+                                <li><Link to="/help">Help Center</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
+                                <li><Link to="/privacy">Privacy Policy</Link></li>
+                                <li><Link to="/terms">Terms of Service</Link></li>
                             </ul>
                         </div>
                     </div>
