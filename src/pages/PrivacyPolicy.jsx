@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
                             <br /><br />
                             <strong>Performance of a Contract:</strong> Creating and managing your user account, displaying events localized on a map, operating the instant messaging infrastructure, and fulfilling your service requests.
                             <br /><br />
-                            <strong>Compliance with Legal Obligations:</strong> Mandatory log-keeping obligations for the prevention of electronically committed crimes (requirements under Law No. 5651 in Turkey), responding to lawful information requests from competent judicial or administrative authorities (court orders, prosecutor subpoenas), and enforcing legal compliance rules such as "Event Age Restrictions" on the platform.
+                            <strong>Compliance with Legal Obligations:</strong> Mandatory log-keeping obligations for the prevention of electronically committed crimes (requirements under Law No. 5651 in Turkey), responding to lawful information requests from competent judicial or administrative authorities (court orders, prosecutor subpoenas), and enforcing our strict 18+ age restriction on the platform.
                             <br /><br />
                             <strong>Legitimate Interests:</strong> Improving our services, fixing technical errors (debugging), detecting fraud or spam activities, ensuring the general security of the application, and conducting business development analytics (provided this does not harm the fundamental rights and freedoms of the data subject).
                             <br /><br />
