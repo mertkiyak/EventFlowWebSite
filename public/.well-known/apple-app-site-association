@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["APPLE_TEAM_ID.com.eventflow.app"],
+        "components": [
+          { "/": "/event-detail*", "comment": "Paylaşılan etkinlik linkleri uygulamada açılır" }
+        ]
+      }
+    ]
+  }
+}

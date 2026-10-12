@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import ChildSafetyPolicy from './pages/ChildSafetyPolicy';
+import OpenEvent from './pages/OpenEvent';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -41,6 +42,7 @@ function App() {
           <Route path="/termsofservice" element={<TermsOfService />} />
           <Route path="/tos" element={<TermsOfService />} />
           <Route path="/child-safety" element={<ChildSafetyPolicy />} />
+          <Route path="/event-detail" element={<OpenEvent />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>
